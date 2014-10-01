@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Storenator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        
+    </head>
+    <body>
+        
+        <div id="banner">
+            
+        </div>
+        
+        
+        
+        <div id="principal">       
+        
+        
+            <h3>Storenator</h3>
+            <p>Bem vindo ao Storenator.</p>
+            <form action="FrontController?opcao=buscar" method="POST">
+                <p>Buscar Produto:</p>
+                Buscar por:
+                <input type="radio" name="queryType" id="nome" value="nome" checked="checked" /><label for="nome">Nome</label>   
+                <input type="radio" name="queryType" id="tipo" value="tipo" /><label for="tipo">Categoria</label>
+                <p><label for="query">Termo:<input type="text" name="query"/></label><p>
+                <input type="submit" value="Buscar" name="Buscar" />
+            </form>
+        
+        </div>
+        
+        <footer>
+            
+        </footer>
+        
+    </body>
+</html>
